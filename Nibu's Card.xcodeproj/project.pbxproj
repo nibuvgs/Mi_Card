@@ -14,6 +14,8 @@
 		BB57484029278ED200A4ABB6 /* Nibu_s_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57483F29278ED200A4ABB6 /* Nibu_s_CardTests.swift */; };
 		BB57484A29278ED200A4ABB6 /* Nibu_s_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57484929278ED200A4ABB6 /* Nibu_s_CardUITests.swift */; };
 		BB57484C29278ED200A4ABB6 /* Nibu_s_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57484B29278ED200A4ABB6 /* Nibu_s_CardUITestsLaunchTests.swift */; };
+		BB57485A292796D100A4ABB6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB574859292796D100A4ABB6 /* Pacifico-Regular.ttf */; };
+		BB57485D2927A31700A4ABB6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57485C2927A31700A4ABB6 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		BB57484529278ED200A4ABB6 /* Nibu's CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nibu's CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB57484929278ED200A4ABB6 /* Nibu_s_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibu_s_CardUITests.swift; sourceTree = "<group>"; };
 		BB57484B29278ED200A4ABB6 /* Nibu_s_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibu_s_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB574859292796D100A4ABB6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		BB57485B292798B300A4ABB6 /* Nibu-s-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nibu-s-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BB57485C2927A31700A4ABB6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,11 @@
 		BB57482D29278ED100A4ABB6 /* Nibu's Card */ = {
 			isa = PBXGroup;
 			children = (
+				BB57485B292798B300A4ABB6 /* Nibu-s-Card-Info.plist */,
+				BB574858292796C400A4ABB6 /* Fonts */,
 				BB57482E29278ED100A4ABB6 /* Nibu_s_CardApp.swift */,
 				BB57483029278ED100A4ABB6 /* ContentView.swift */,
+				BB57485C2927A31700A4ABB6 /* InfoView.swift */,
 				BB57483229278ED200A4ABB6 /* Assets.xcassets */,
 				BB57483429278ED200A4ABB6 /* Preview Content */,
 			);
@@ -125,6 +133,14 @@
 				BB57484B29278ED200A4ABB6 /* Nibu_s_CardUITestsLaunchTests.swift */,
 			);
 			path = "Nibu's CardUITests";
+			sourceTree = "<group>";
+		};
+		BB574858292796C400A4ABB6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BB574859292796D100A4ABB6 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB57485A292796D100A4ABB6 /* Pacifico-Regular.ttf in Resources */,
 				BB57483629278ED200A4ABB6 /* Preview Assets.xcassets in Resources */,
 				BB57483329278ED200A4ABB6 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB57483129278ED100A4ABB6 /* ContentView.swift in Sources */,
+				BB57485D2927A31700A4ABB6 /* InfoView.swift in Sources */,
 				BB57482F29278ED100A4ABB6 /* Nibu_s_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 				DEVELOPMENT_TEAM = SANLDT286L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nibu-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +468,7 @@
 				DEVELOPMENT_TEAM = SANLDT286L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nibu-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
